@@ -6,30 +6,31 @@
 
 newsblog/
 │
-├── /admin/ # Admin dashboard & tools
-│ ├── dashboard.php # Main admin panel
-│ ├── login.php # Admin login
-│ ├── create-post.php # Create new article
-│ ├── edit-post.php # Edit existing articles
-│ ├── manage-comments.php # Moderate comments
-│ └── logout.php # Admin logout
+├── admin/                      # Admin panel for managing content
+│   ├── dashboard.php           # Admin dashboard
+│   ├── login.php               # Admin login page
+│   ├── create-post.php         # Create a new article
+│   ├── edit-post.php           # Edit existing articles
+│   ├── manage-comments.php     # Manage article comments
+│   └── logout.php              # Admin logout script
 │
-├── /includes/ # Common components & configuration
-│ ├── db.php # Database connection
-│ ├── header.php # HTML header & navigation
-│ ├── footer.php # Page footer
-│ └── functions.php # Utility/helper functions
+├── includes/                   # Reusable components & DB config
+│   ├── db.php                  # Database connection script
+│   ├── header.php              # Header section (HTML + nav)
+│   ├── footer.php              # Footer section
+│   └── functions.php           # Utility functions
 │
-├── /uploads/ # Uploaded images for articles
+├── uploads/                    # Uploaded article images
 │
-├── index.php # Homepage showing latest articles
-├── article.php # Full article view
-├── category.php # Articles by category
-├── search.php # Search results page
-├── subscribe.php # Newsletter subscription form handler
-├── contact.php # Contact form page
-├── about.php # About the blog/site
-└── style.css # Main stylesheet
+├── index.php                   # Homepage showing latest news
+├── article.php                 # Full article view page
+├── category.php                # Category-wise article listing
+├── search.php                  # Search results page
+├── subscribe.php               # Newsletter form handling
+├── contact.php                 # Contact form page
+├── about.php                   # About the blog/site
+├── style.css                   # Main CSS file
+
 
 
 
