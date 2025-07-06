@@ -3,7 +3,7 @@ require_once 'includes/db.php';
 require_once 'includes/header.php';
 
 $postId = isset($_GET['id']) ? (int) $_GET['id'] : 0;
-if ($postId <= 0) {
+if ($postId <= 0) { 
     die("Invalid article.");
 }
 
