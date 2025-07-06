@@ -1,7 +1,7 @@
-<?php 
+ <?php 
 require_once 'includes/db.php';
 require_once 'includes/header.php';
-require_once 'includes/functions.php';
+require_once 'includes/functions.php'; 
 
 $category = isset($_GET['category']) ? sanitize($_GET['category']) : '';
 
